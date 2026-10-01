@@ -1,19 +1,19 @@
 import smtplib
 from email.message import EmailMessage
 
-sender_email = "hardhik385@gmail.com"
-password = 'rtwl rkfz zikd ktak'
-receiver_email = 'pavank9k@gmail.com'
+sender_email = "ENTER YOUR EMAIL"
+password = "ENTER YOUR APP PASSWORD"
+receiver_email = "ENTER RECIPIENT EMAIL"
 
 subject = "Test Email"
 body = '''
 
-Hi Daddy,
+Hello,
 
 This is a test email sending from a python script
 
 Best Regards,
-Hardhik
+Your Name
 
 '''
 

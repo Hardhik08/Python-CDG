@@ -1,4 +1,4 @@
-fpath = r"C:\Users\hardh\Downloads\Actual_Import_3678_2026-09-23.csv"
+fpath = r"ENTER YOUR FILE PATH"
 
 with open(fpath,'r+') as file:
     content = file.read()
@@ -6,7 +6,7 @@ with open(fpath,'r+') as file:
 with open(fpath,'a') as file:
     file.seek(0)
     if content:
-        file.write("Hi, Vamshi!\n")
+        file.write("ENTER YOUR TEXT\n")
         print("Write Complete")
        
     else:
